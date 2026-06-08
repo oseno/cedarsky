@@ -2,15 +2,15 @@
   "name": "cedarsky",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oseno.github.io/cedarsky",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build && next export",
-    "deploy": "gh-pages -d out"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d out"
+},
+  "homepage": "https://oseno.github.io/cedarsky",
   "dependencies": {
     "next": "15.3.3",
     "react": "^19.0.0",
